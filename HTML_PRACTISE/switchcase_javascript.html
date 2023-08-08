@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SWITCH CASE</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h3{
+            color: violet;
+            background-color: aquamarine;
+           
+            font-size: 200%;
+        }
+        h4{
+            color: coral;
+            background-color: darkorchid;
+        }
+        #demo{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h3> this is to display today's day</h3>
+    <br>
+    <br>
+    <h4>Today is : </h4>
+    <p id="demo"></p>
+    <button type="button" onclick="document.getElementById('demo').innerHTML=TODAY()">
+    DAY</button>
+    <script>
+        function TODAY(){
+            let x;
+            switch(new Date().getDay()){
+                case 0:
+                    day = "SUNDAY";
+                    break;
+                case 1:
+                    day = "MONDAY";
+                    break;
+                case 2:
+                    day = "TUESDAY";
+                    break;
+                case 3:
+                    day = "WEDNESDAY";
+                    break;
+                case 4:
+                    day = "THURSDAY";
+                    break;
+                case 5:
+                    day = "FRIDAY";
+                    break;
+                case 6:
+                    day = "SATURDAY";
+                    break;
+            }
+            return day; // Add this line to return the day value
+        }   
+    </script>
+</body>
+</html>
