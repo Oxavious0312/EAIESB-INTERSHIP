@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+
+<title> Login Page </title>
+<style> 
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: greenyellow;
+}
+button { 
+       background-color:blue; 
+       width: 100%;
+        color:red; 
+        padding: 15px; 
+
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+        border: 3px; 
+    } 
+ input[type=text], input[type=password] { 
+        width: 90%; 
+        padding: 10px 10px;
+        border: 20px color=red
+        
+    } 
+</style> 
+</head>  
+<body>  
+    <center><h1 style="color:black;"> Student Login Form </h1> </center> 
+    <form action="https://www.google.com">
+        
+            <label>Username : </label> 
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <br>
+            <br>
+            <label>Password : </label> 
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <br>
+            <br>
+            <button type="submit">Login</button> 
+            <br>
+            <br>
+            <input type="checkbox" checked="checked"> Remember me 
+            <br>
+            <br>
+            <button type="button" class="cancelbtn"> Cancel</button> 
+            <br>
+            <br>
+            Forgot <a href="https://www.youtube.com"> password? </a>
+            <br>
+            Go to youtube and see how to retrieve the account
+        
+    </form>   
+</body>   
+</html>
+
