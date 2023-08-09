@@ -58,16 +58,18 @@ public class CalculatorController {
     
     @PostMapping("/sub")
     public int sub(@Validated @RequestBody Calculator cal) {
-    	return (cal.getNum1()+ cal.getNum2());
+    	return (cal.getNum1()- cal.getNum2());
     }
     
     @PostMapping("/mul")
     public int mul(@Validated @RequestBody Calculator cal) {
-    	return (cal.getNum1()+ cal.getNum2());
+    	return (cal.getNum1()* cal.getNum2());
     }
     
     @PostMapping("/div")
     public int div(@Validated @RequestBody Calculator cal) {
-    	return (cal.getNum1()+ cal.getNum2());
+    	return (cal.getNum1()/ cal.getNum2());
     }
+
+
 }
