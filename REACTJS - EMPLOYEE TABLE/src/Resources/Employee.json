@@ -1,0 +1,63 @@
+{
+    "Employees":[
+        {
+    "_id": {
+      "$oid": "64d48562deae75796643ac3a"
+    },
+    "empNum": "E101",
+    "empFirstName": "Ravi",
+    "empLastName": "Prakash",
+    "empSalary": 25000,
+    "_class": "com.eaiesb.employee.Employee"
+  },
+  {
+    "_id": {
+      "$oid": "64d485a4deae75796643ac3b"
+    },
+    "empNum": "E102",
+    "empFirstName": "Sathvik",
+    "empLastName": "Sangaraju",
+    "empSalary": 105000,
+    "_class": "com.eaiesb.employee.Employee"
+  },
+  {
+    "_id": {
+      "$oid": "64d48604deae75796643ac3c"
+    },
+    "empNum": "E103",
+    "empFirstName": "sai",
+    "empLastName": "Krishna",
+    "empSalary": 35000,
+    "_class": "com.eaiesb.employee.Employee"
+  },
+  {
+    "_id": {
+      "$oid": "64d4a47436ad4751c4de4b8c"
+    },
+    "empNum": "E104",
+    "empFirstName": "vamsi",
+    "empLastName": "Krishna",
+    "empSalary": 55000,
+    "_class": "com.eaiesb.employee.Employee"
+  },
+  {
+    "_id": {
+      "$oid": "64d4d34b4e3e3c0e0e5d575f"
+    },
+    "empNum": "E105",
+    "empFirstName": "sathvik",
+    "empLastName": "varma",
+    "empSalary": 65000,
+    "_class": "com.eaiesb.employee.Employee"
+  },
+  {
+    "_id": {
+      "$oid": "64d5f2735acd3bae41278c55"
+    },
+    "empNum": "E101",
+    "empFirstName": "HDDS",
+    "empLastName": "hhs",
+    "empSalary": 23220,
+    "_class": "com.eaiesb.employee.Employee"
+  }]
+}
